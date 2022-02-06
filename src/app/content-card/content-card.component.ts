@@ -22,16 +22,16 @@ export class ContentCardComponent implements OnInit {
 
   addData(){
     //adding 5 items, you can increase by changing number 6 if you wish.
-    for(var i=0;i<6;i++)
-    this.cList.addContentItem({
-      id: i,
-      title: "Mukesh",
-      description: "SDE",
-      creator: "Mukesh",
-      imgURL: "https://cdn.pixabay.com/photo/2016/10/26/19/00/domain-names-1772242_960_720.jpg",
-      type: "MMJUIO",
-      tags: ["Mukesh"]
-    });
+     for (var i = 0; i < 6; i++)
+      this.cList.addContentItem({
+        id: i,
+        title: 'Anjum',
+        description: 'Web Developer',
+        creator: 'Anjum',
+        imgURL: 'https://wallpapercave.com/wp/wp6350578.jpg',
+        type: 'Coder',
+        tags: ['web', 'android', 'desktop', 'system'],
+      });
   }
   //search content by Index
   searchCardbyIdx(idx:Number){
